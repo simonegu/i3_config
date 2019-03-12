@@ -165,8 +165,6 @@ bindsym Control+$mod+l exec "i3lock -d -c 000000"
 bindsym $mod+n exec nautilus --no-desktop
 # Wallpaper fo multiple screen
 exec --no-startup-id nitrogen --restore y
-# suspend shortcat
-bindsym Control+$mod+s exec "systemctl suspend"
 # office screen
 bindsym Control+$mod+m exec "sh /home/simone/.screenlayout/screen_office.sh"
 #laptop screen
